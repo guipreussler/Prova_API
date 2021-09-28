@@ -1,0 +1,14 @@
+### Cadastrar um novo livro
+POST https://localhost:5001/api/livro/create
+Content-Type: application/json
+
+{
+    "Titulo" : "Ansiedade, como controlar?",
+    "Editora" : "Saraiva",
+    "AnoPublicacao" : "2020",
+    "Edicao" : "Branco",
+    "Pagina" : "120"
+}
+
+### Listar todos os livros
+GET https://localhost:5001/api/livro/list
